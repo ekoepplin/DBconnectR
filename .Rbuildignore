@@ -1,0 +1,15 @@
+^\.Rprofile$
+^.*\.Rproj$
+^\.Rproj\.user$
+^maintain_Package\.R$
+^run_on_jenkins\.R$
+^messagess\.Rout$
+^packrat/
+^.idea
+^\.httr-oauth$
+^renv$
+renv.lock
+^build_teamserverOM_base.Jenkinsfile
+^build_teamserverOM_runscript.Jenkinsfile
+^PR_tester.Jenkinsfile
+^LICENSE\.md$
