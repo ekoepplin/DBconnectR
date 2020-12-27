@@ -1,5 +1,6 @@
 DBconnectR
 ==============
+[![CircleCI](https://circleci.com/gh/ekoepplin/DBconnectR.svg?style=svg)](https://circleci.com/gh/ekoepplin/DBconnectR)
 ### What is the purpose of the package?
 
 *R client to query data from different sources*
