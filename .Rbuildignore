@@ -13,3 +13,5 @@ renv.lock
 ^build_teamserverOM_runscript.Jenkinsfile
 ^PR_tester.Jenkinsfile
 ^LICENSE\.md$
+^codecov\.yml$
+.covrignore
