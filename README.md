@@ -2,12 +2,32 @@ DBconnectR
 ==============
 ### What is the purpose of the package?
 
-*This R package is used to systematize R code*
+*R client to query data from different sources*
 
-## Installing necessary R packages
+## What is Inside?
 
-You can find a list of versioned R packages that this package needs in `inst/version_control/package.lock`. You'll also find `cran_package_installer.sh` which you can use to install all those packages locally:
+The following functions are implemented:
 
-`sh inst/version_control/cran_package_installer.sh inst/version/control/package.lock`
+  - `my_dummy_function`: My dummy function
 
-## Continuous Integration process using docker
+### Stable Version
+
+```{r, eval=FALSE}
+# install package from CRAN
+install.packages("DBconnectR")
+# load package
+library(DBconnectR)
+```
+
+### Current Development Version
+
+```{r, eval=FALSE}
+# install devtools package if it's not already
+if (!requireNamespace("devtools", quietly = TRUE)) {
+install.packages("devtools")
+}
+# install package from GitHub
+devtools::install_github("ekoepplin/DBconnectR")
+# load package
+library(DBconnectR)
+```
