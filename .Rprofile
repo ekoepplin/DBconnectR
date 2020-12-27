@@ -4,8 +4,8 @@ local({
   options(repos = r)
 })
 
-## set teamserverom as default project
+## set DBconnectR as default project
 setHook("rstudio.sessionInit", function(newSession) {
   if (newSession && is.null(rstudioapi::getActiveProject()))
-    rstudioapi::openProject("/teamserverOM")
+    rstudioapi::openProject("/DBconnectR")
 }, action = "append")
