@@ -15,7 +15,7 @@ DBconnectR
 
 The following functions are implemented:
 
-  - `my_dummy_function`: My dummy function
+  - `run_query.R`: runs quries agains different databases
 
 ### Stable Version
 
